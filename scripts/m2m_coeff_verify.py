@@ -1,7 +1,10 @@
 #!/usr/bin/env python
 """
-Verification for the difference between compressed M2M coefficients and
-full M2M coefficients for Helmholtz kernel in 2D.
+Verification of compressed M2M translation for Helmholtz kernel in 2D.
+
+Compares two approaches:
+1. Compress coefficients -> embed -> M2M translate
+2. M2M translate with full coefficients
 """
 
 import math
